@@ -881,12 +881,6 @@ html {
     }
 }
 
-@media screen and (max-width:490px) {
-    .products-div {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-
-}
 
 @media screen and (max-width:585px) {
     .btn {
@@ -894,26 +888,32 @@ html {
         flex-wrap: nowrap;
         font-size: 10px;
     }
-
+    
     .btn a.orangeBtn {
         font-size: 10px;
     }
-
+    
     .btn a.whiteBtn {
         font-size: 10px;
     }
-
+    
     .home-text ul li {
         font-size: 12px;
     }
-
+    
 }
 
+@media screen and (max-width:490px) {
+    .products-div {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+}
 @media screen and (max-width:440px) {
     .home-text h1 {
         font-size: 24px;
     }
-
+    
     h2.heading {
         font-size: 18px;
     }
@@ -924,7 +924,7 @@ html {
 
 }
 
-@media screen and (max-width:370px) {
+@media screen and (max-width:395px) {
     .btn {
         flex-wrap: wrap;
     }
